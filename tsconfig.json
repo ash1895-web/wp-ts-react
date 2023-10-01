@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+      "target": "esnext",
+      "module": "esnext",
+      "jsx": "react",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "declaration": true,
+      "declarationMap": true,
+      "strictFunctionTypes": true,
+      "strictPropertyInitialization": true,
+      "noImplicitAny": true,
+      "noImplicitThis": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "noImplicitReturns": true,
+      "noFallthroughCasesInSwitch": true,
+      "allowJs": false,
+      "checkJs": false,
+      "jsxFactory": "React.createElement",
+      "baseUrl": "./src",
+      "paths": {
+        "*": ["src/*"]
+      },
+      "outDir": "./declarations"
+    },
+    "include": ["src/**/*.ts", "src/**/*.tsx"],
+    "exclude": ["node_modules"]
+  }
